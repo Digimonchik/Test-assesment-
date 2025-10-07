@@ -10,4 +10,4 @@ TASK #2
 
 Task #3
 
-![sidebar](image-5.png)
+![sidebar](./screenshots/image-5.png)
