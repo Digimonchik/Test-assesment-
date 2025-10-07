@@ -1,0 +1,23 @@
+.input__wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.input__field {
+    padding: 8px 32px 8px 8px;
+    font-size: 14px;
+    width: 200px;
+}
+
+.input__icon,
+.input__clear {
+    position: absolute;
+    cursor: pointer;
+    right: 8px;
+    font-size: 16px;
+}
+
+.input__clear {
+    right: 32px;
+}

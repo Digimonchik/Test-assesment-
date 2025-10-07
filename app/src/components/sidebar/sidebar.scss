@@ -1,0 +1,48 @@
+.sidebar__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    z-index: 10;
+}
+
+.sidebar__container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 100vh;
+    background: #fff;
+    z-index: 20;
+    padding: 16px;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.15);
+    overflow-y: auto;
+}
+
+.menu__item {
+    margin: 8px 0;
+}
+
+.menu__label {
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.submenu {
+    padding-left: 16px;
+    overflow: hidden;
+}
+
+.level-1 .menu__label {
+    font-weight: 500;
+}
+
+.level-2 .menu__label {
+    font-weight: 400;
+    font-size: 14px;
+}
